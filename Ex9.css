@@ -1,0 +1,15 @@
+#titulo {color: cyan;}
+.rojo{ color: red;}
+.destacado{color: orange;}
+#subtitulo {text-align: left; color: blue;}
+.rojo{color: red;}
+#azul {color: blue;}
+span.especial{color: blueviolet;}
+
+th.especial{color: orange;}
+
+th.colrojo{color: red;}
+.verde{color: forestgreen;}
+.orange{ color: orange;}
+#adicional{color: olivedrab;}
+span#especial{color: blueviolet;}

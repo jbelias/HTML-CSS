@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excersice6</title>
+</head>
+<body>
+    <header>
+        <h1> <p align="left"><strong>REGISTRE UN USUARIO</strong> </h1>
+    </header>
+
+    <section>
+        <div>
+            <form action="/controlador-registro" method="post" class="form-registro" enctype="multipart/form-data">
+                <div>
+                    <label for="nombre del usuario"><strong>Nombre del usuario</strong></label>
+                    <input name="nombre del usuario" type="text" placeholder="Nombre y apellido" required/>
+                </div>
+
+                <div>
+                    <label for="contraseña del usuario"><strong>Contraseña</strong> </label>
+                    <input name="contraseña del usuario" type="password" placeholder="Su contraseña" required/>
+                </div>
+
+                <div>
+                    <label for="Mail"><strong>Mail</strong></label>
+                    <input name="Mail" type="mail" placeholder="Ej. abc123@gmail.com" required/>
+                </div>
+
+                <div>
+                    <label for="fecha de nacimiento del usuario"><strong>Fecha de nacimiento</strong></label>
+                    <input name="fecha de nacimiento del usuario" type="date"/>
+                </div>
+
+                <div>
+                    <label for="Sexo"><strong>Sexo</strong></label>
+                    <br>
+                    <input type="radio" id="Masculino" name="Sexo" value="1">
+                    <label for="Masculino">Masculino</label>
+                    <br>
+                    <input type="radio" id="Femenino" name="Sexo" value="2">
+                    <label for="Femenino">Femenino</label>
+                    <br>
+                    <input type="radio" id="Otro" name="Sexo" value="3">
+                    <label for="Otro">Otro</label>
+                </div>
+                <div>
+                    <label for="pais"><strong>Nacionalidad</strong></label>
+                    <select name="pais" id="">
+                        <option value="arg">ARGENTINA</option>
+                        <option value="br">BRASIL</option>
+                        <option value="chi">CHILE</option>
+                    </select> <BR></BR>
+                    <button type="submit">ENVIAR</button>
+                    <button type="reset">BORRAR</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div></div>
+
+    <footer></footer>
+</body>
+</html>
