@@ -1,0 +1,17 @@
+.td{
+    align-content: center;
+    color: #FFFFCC;
+}
+.table {
+    border-color: #333; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecera{
+    background-image: url(./IMG/fondo_gris.gif);
+}
+.cambio{
+    background-color: #d0e7fc;
+}
+.container-fluid{
+    background-color: aquamarine;
+}

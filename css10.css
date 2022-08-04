@@ -1,3 +1,44 @@
 .form {
-    border: 1px; color: black;
+    margin: 0.4cm;
+    background-color: aliceblue;
+    border-radius: 0.5cm;
+    padding: 0.9cm;
 }
+.cuerpo{
+background-color: rgb(206, 204, 204);
+}
+.countries{
+    margin: 0.4cm;
+    background-color: aliceblue;
+    border-radius: 0.5cm;
+    padding: 0.8cm;
+}
+.carouselExampleCaptions{
+    margin: 0.4cm;
+    background-color: aliceblue;
+    border-radius: 0.5cm;
+    padding: 0.8cm;
+}
+.carousel-inner{
+    padding: 0.5cm;
+}
+.carousel-item{
+    
+    margin: cm;
+    background-color: dimgrey;
+    border-radius: 0.1cm;
+    padding: 0.1cm;
+    }
+.reg{
+    margin: 25px;
+}
+.enc2{
+    margin: 25px;
+}
+.subtext{
+    margin: 20px;
+}
+.h1{
+    background-color: darkcyan;
+}
+
